@@ -22,5 +22,5 @@ jobs:
               cd ~/relay-ws
               git pull origin master
               git status
-              npm install --only=prod
-              pm2 restart proxy.tryz.id.vn
+              npm install
+              pm2 restart relay-ws
